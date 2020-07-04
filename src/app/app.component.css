@@ -1,0 +1,107 @@
+.bgColor {
+--bg-opacity: 1;
+background-color: #e2e8f0;
+background-color: rgba(226,232,240,var(--bg-opacity));
+width: 100%;
+height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  li a:hover {
+    color: black;
+  }
+
+  .phone{
+    content:url("../assets/images/phone.svg");
+  }
+
+  .phone:hover {
+    content:url("../assets/images/phone-black.svg");
+  }
+
+  .mail{
+    content:url("../assets/images/mail.svg");
+  }
+
+  .mail:hover {
+    content:url("../assets/images/mail-black.svg");
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .font-size {
+    font-size: 14px;
+  }
+
+  .button {
+    height: 3em;
+    width: 10em;
+    --bg-opacity: 1;
+    background-color: #f6e05e;
+    background-color: rgba(246,224,94,var(--bg-opacity));
+    border-radius: 45px;
+    color: gray;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #FAF089;
+    color: gray;
+  }
+
+  .kampanya {
+    position:absolute;
+    top:0;
+    right: 0;
+    background-color: #48BB78;
+    border-radius: 15px 15px 0px 15px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .building {
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height: 80vh;
+    max-height: 80vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .menu {
+        background-color: transparent;
+        position: relative;
+        height: 90px;
+        transition-timing-function: linear;
+    }
+
+    .menu:hover {
+        background-color: #F6E05E;
+    }
+
+
+
